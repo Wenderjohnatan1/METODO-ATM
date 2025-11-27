@@ -419,10 +419,9 @@ export default function Home() {
             </div>
             <Button
               size="lg"
-              className="flex h-auto w-full max-w-lg animate-pulse flex-col rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
+              className="h-auto w-full max-w-lg animate-pulse rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
             >
-              <span>Quero ser homem</span>
-              <span>agora</span>
+              Quero ser homem agora
             </Button>
           </div>
         </section>
