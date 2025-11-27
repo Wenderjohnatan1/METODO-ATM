@@ -394,12 +394,12 @@ export default function Home() {
               Chegou sua hora de decidir
             </h2>
             <div className="my-8 flex flex-col items-center justify-center gap-4">
-              <p className="text-3xl text-muted-foreground line-through">
+              <p className="text-3xl text-destructive line-through">
                 DE R$ 97,90
               </p>
-              <div className="rounded-md border-4 border-dashed border-primary p-4">
+              <div className="rounded-md border-4 border-dashed border-success p-4">
                 <p className="text-5xl font-bold md:text-7xl">
-                  POR <span className="text-primary">R$ 37,90</span>
+                  POR <span className="text-success">R$ 37,90</span>
                 </p>
               </div>
               <p className="rounded-full bg-accent px-6 py-2 text-xl font-bold text-accent-foreground">
@@ -408,7 +408,7 @@ export default function Home() {
             </div>
             <Button
               size="lg"
-              className="h-auto w-full max-w-lg animate-pulse rounded-xl bg-accent p-6 text-3xl font-black uppercase text-accent-foreground shadow-[0_0_20px_#FFFF00] transition-all hover:scale-105 hover:bg-accent/90 hover:shadow-[0_0_30px_#FFFF00] md:text-4xl"
+              className="h-auto w-full max-w-lg animate-pulse rounded-xl bg-success p-6 text-3xl font-black uppercase text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
             >
               Quero ser homem agora
             </Button>
@@ -499,7 +499,7 @@ export default function Home() {
 
           <Button
             size="lg"
-            className="h-auto w-full max-w-2xl animate-pulse rounded-xl bg-accent p-6 text-3xl font-black uppercase text-accent-foreground shadow-[0_0_20px_#FFFF00] transition-all hover:scale-105 hover:bg-accent/90 hover:shadow-[0_0_30px_#FFFF00] md:text-4xl"
+            className="h-auto w-full max-w-2xl animate-pulse rounded-xl bg-success p-6 text-3xl font-black uppercase text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
           >
             Garantir minha vaga agora
           </Button>
