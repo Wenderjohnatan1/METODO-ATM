@@ -19,6 +19,7 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CountdownTimer } from '@/components/countdown-timer';
+import Image from 'next/image';
 
 export default function Home() {
   const testimonials = [
@@ -84,6 +85,16 @@ export default function Home() {
               <span className="font-bold text-primary">TRANSFORMANDO</span> suas
               vidas sexuais com o Método A.T.M.
             </p>
+            <div className="my-8">
+              <Image
+                src="https://i.postimg.cc/BQSnSdzH/Gemini-Generated-Image-l8hn2ml8hn2ml8hn.png"
+                alt="Homem confiante na cama com a parceira"
+                width={800}
+                height={450}
+                className="mx-auto rounded-lg shadow-2xl"
+                data-ai-hint="man bed partner"
+              />
+            </div>
             <p className="font-bold">
               Você vai ser o próximo... ou vai continuar fingindo que está tudo
               bem?
@@ -408,9 +419,10 @@ export default function Home() {
             </div>
             <Button
               size="lg"
-              className="h-auto w-full max-w-lg animate-pulse rounded-xl bg-success p-6 text-3xl font-black uppercase text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
+              className="flex h-auto w-full max-w-lg animate-pulse flex-col rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
             >
-              Quero ser homem agora
+              <span>Quero ser homem</span>
+              <span>agora</span>
             </Button>
           </div>
         </section>
@@ -509,3 +521,5 @@ export default function Home() {
     </main>
   );
 }
+
+    
