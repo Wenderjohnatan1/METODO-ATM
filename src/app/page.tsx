@@ -80,11 +80,6 @@ export default function Home() {
             vergonha?
           </p>
           <div className="mx-auto mt-8 max-w-3xl space-y-4 text-lg text-foreground/80 md:text-xl">
-            <p>
-              Enquanto você lê isso, outros homens estão{' '}
-              <span className="font-bold text-primary">TRANSFORMANDO</span> suas
-              vidas sexuais com o Método A.T.M.
-            </p>
             <div className="my-8">
               <Image
                 src="https://i.postimg.cc/BQSnSdzH/Gemini-Generated-Image-l8hn2ml8hn2ml8hn.png"
@@ -95,6 +90,11 @@ export default function Home() {
                 data-ai-hint="man bed partner"
               />
             </div>
+            <p>
+              Enquanto você lê isso, outros homens estão{' '}
+              <span className="font-bold text-primary">TRANSFORMANDO</span> suas
+              vidas sexuais com o Método A.T.M.
+            </p>
             <p className="font-bold">
               Você vai ser o próximo... ou vai continuar fingindo que está tudo
               bem?
@@ -521,5 +521,3 @@ export default function Home() {
     </main>
   );
 }
-
-    
