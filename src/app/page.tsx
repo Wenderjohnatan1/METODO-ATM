@@ -302,7 +302,7 @@ export default function Home() {
                 alt="Método A.T.M"
                 width={1080}
                 height={1350}
-                className="mx-auto max-w-lg rounded-lg shadow-2xl"
+                className="mx-auto w-full max-w-md rounded-lg shadow-2xl"
                 data-ai-hint="product package"
               />
         </section>
