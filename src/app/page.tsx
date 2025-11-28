@@ -288,6 +288,18 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
+        {/* Product Image Section */}
+        <section className="py-16 text-center md:py-24">
+            <Image
+                src="https://i.postimg.cc/3xd7GQm0/IMG-PV-METODO-A-T-M.png"
+                alt="Método A.T.M"
+                width={1080}
+                height={1350}
+                className="mx-auto max-w-lg rounded-lg shadow-2xl"
+                data-ai-hint="product package"
+              />
+        </section>
 
         {/* Proof Section */}
         <section className="rounded-lg bg-card py-16 md:py-24">
