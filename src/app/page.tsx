@@ -100,6 +100,12 @@ export default function Home() {
               bem?
             </p>
           </div>
+          <Button
+            size="lg"
+            className="mt-10 h-auto w-full max-w-lg animate-pulse rounded-xl bg-success p-4 text-2xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))] md:text-3xl"
+          >
+            Acessar agora
+          </Button>
         </section>
 
         {/* Problems Section */}
