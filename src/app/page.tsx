@@ -386,6 +386,18 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Cover Image Section */}
+        <section className="py-16 text-center md:py-24">
+          <Image
+            src="https://i.postimg.cc/Zn53w7xZ/CApa-metodo-A-T-M.png"
+            alt="Capa Método A.T.M"
+            width={1080}
+            height={1080}
+            className="mx-auto w-full max-w-lg rounded-lg shadow-2xl"
+            data-ai-hint="product cover"
+          />
+        </section>
+
         {/* Offer Section */}
         <section className="py-16 text-center md:py-24">
           <div className="mx-auto max-w-4xl">
