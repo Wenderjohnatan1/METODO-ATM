@@ -55,7 +55,7 @@ export default function Home() {
       initials: 'GS',
       name: 'Gustavo S.',
       details: '26 anos - Brasília',
-      quote:
+      query:
         'Eu tinha PAVOR de transar. Sempre inventava desculpa. Medo de brochar, de gozar rápido... Depois do A.T.M eu virei o cara que TODAS as minas querem repetir. Já peguei 8 minas diferentes esse mês. TODAS voltam.',
     },
     {
@@ -100,12 +100,6 @@ export default function Home() {
               bem?
             </p>
           </div>
-          <Button
-            size="lg"
-            className="mt-10 h-auto w-full max-w-lg animate-pulse rounded-xl bg-success p-4 text-2xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))] md:text-3xl"
-          >
-            Acessar agora
-          </Button>
         </section>
 
         {/* Problems Section */}
