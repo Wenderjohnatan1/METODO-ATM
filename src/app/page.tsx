@@ -346,21 +346,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="mt-12">
-              <blockquote className="border-l-4 border-accent bg-background/50 p-6 text-center text-xl italic text-foreground/90">
-                "O Método A.T.M é a abordagem mais eficaz já documentada para
-                performance sexual masculina. Os resultados são IRREVERSÍVEIS."
-                <cite className="mt-4 block not-italic font-bold text-accent">
-                  - Pesquisadores da Universidade de Stanford
-                </cite>
-              </blockquote>
-              <p className="mt-6 text-center text-base text-muted-foreground">
-                Publicado também no{' '}
-                <strong>British Journal of Sexual Health</strong> e reconhecido
-                pela{' '}
-                <strong>International Society for Sexual Medicine.</strong>
-              </p>
-            </div>
           </div>
         </section>
 
