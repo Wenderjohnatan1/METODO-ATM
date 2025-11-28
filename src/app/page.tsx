@@ -314,9 +314,7 @@ export default function Home() {
               ISSO REALMENTE FUNCIONA?
             </h2>
             <p className="mb-10 text-center text-lg text-foreground/80">
-              Estudo revolucionário publicado no{' '}
-              <strong>Journal of Sexual Medicine (2024)</strong> acompanhou
-              1.247 homens que aplicaram o Método A.T.M durante 30 dias:
+              Resultados comprovados em mais de 1.247 homens que aplicaram o Método A.T.M por 30 dias.
             </p>
             <div className="mx-auto grid max-w-4xl gap-6 text-xl md:grid-cols-2 md:text-2xl">
               <div className="flex items-start gap-3">
