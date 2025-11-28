@@ -52,13 +52,6 @@ export default function Home() {
         'Achei que com 40 anos já era. Que não tinha mais jeito. MENTIRA. O Método A.T.M me fez sentir com 20 de novo. Minha esposa tá VICIADA. Fazemos TODO DIA. Ela diz que casou com um homem novo.',
     },
     {
-      initials: 'GS',
-      name: 'Gustavo S.',
-      details: '26 anos - Brasília',
-      query:
-        'Eu tinha PAVOR de transar. Sempre inventava desculpa. Medo de brochar, de gozar rápido... Depois do A.T.M eu virei o cara que TODAS as minas querem repetir. Já peguei 8 minas diferentes esse mês. TODAS voltam.',
-    },
-    {
       initials: 'LA',
       name: 'Lucas A.',
       details: '30 anos - Porto Alegre',
