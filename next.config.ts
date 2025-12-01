@@ -33,11 +33,9 @@ const nextConfig: NextConfig = {
         hostname: 'i.postimg.cc',
         port: '',
         pathname: '/**',
-      }
+      },
     ],
   },
 };
 
 export default nextConfig;
-
-    
