@@ -546,7 +546,7 @@ export default function Home() {
               <span>OFERTA EXPIRA EM:</span>
               <Clock className="h-8 w-8" />
             </p>
-            <CountdownTimer initialMinutes={7} initialSeconds={50} />
+            <CountdownTimer initialMinutes={15} initialSeconds={0} />
           </div>
           <Link
             href="https://pay.lowify.com.br/checkout.php?product_id=QIFrwM"
