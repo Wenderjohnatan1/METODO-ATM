@@ -20,6 +20,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CountdownTimer } from '@/components/countdown-timer';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   const testimonials = [
@@ -281,17 +282,17 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+
         {/* Product Image Section */}
         <section className="py-16 text-center md:py-24">
-            <Image
-                src="https://i.postimg.cc/3xd7GQm0/IMG-PV-METODO-A-T-M.png"
-                alt="Método A.T.M"
-                width={1080}
-                height={1350}
-                className="mx-auto w-full max-w-md rounded-lg shadow-2xl"
-                data-ai-hint="product package"
-              />
+          <Image
+            src="https://i.postimg.cc/3xd7GQm0/IMG-PV-METODO-A-T-M.png"
+            alt="Método A.T.M"
+            width={1080}
+            height={1350}
+            className="mx-auto w-full max-w-md rounded-lg shadow-2xl"
+            data-ai-hint="product package"
+          />
         </section>
 
         {/* Proof Section */}
@@ -301,7 +302,8 @@ export default function Home() {
               ISSO REALMENTE FUNCIONA?
             </h2>
             <p className="mb-10 text-center text-lg text-foreground/80">
-              Resultados comprovados em mais de 1.247 homens que aplicaram o Método A.T.M por 30 dias.
+              Resultados comprovados em mais de 1.247 homens que aplicaram o
+              Método A.T.M por 30 dias.
             </p>
             <div className="mx-auto grid max-w-4xl gap-6 text-xl md:grid-cols-2 md:text-2xl">
               <div className="flex items-start gap-3">
@@ -322,7 +324,8 @@ export default function Home() {
                 <Check className="mt-1 h-8 w-8 flex-shrink-0 text-primary" />
                 <p>
                   <strong className="text-primary">96%</strong> das parceiras
-                  relataram satisfação <strong className="uppercase">total</strong>
+                  relataram satisfação{' '}
+                  <strong className="uppercase">total</strong>
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -343,7 +346,10 @@ export default function Home() {
           </h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((testimonial) => (
-              <Card key={testimonial.initials} className="flex flex-col bg-card">
+              <Card
+                key={testimonial.initials}
+                className="flex flex-col bg-card"
+              >
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <Avatar className="h-14 w-14 border-2 border-accent">
@@ -417,12 +423,17 @@ export default function Home() {
                 VOCÊ ECONOMIZA R$ 60,00
               </p>
             </div>
-            <Button
-              size="lg"
-              className="h-auto w-full max-w-lg animate-pulse rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
+            <Link
+              href="https://pay.lowify.com.br/checkout.php?product_id=QIFrwM"
+              className="inline-block w-full max-w-lg"
             >
-              Acessar agora
-            </Button>
+              <Button
+                size="lg"
+                className="h-auto w-full animate-pulse rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
+              >
+                Acessar agora
+              </Button>
+            </Link>
           </div>
         </section>
 
@@ -439,7 +450,8 @@ export default function Home() {
               performance, não durar no mínimo{' '}
               <strong className="text-primary">20 minutos</strong>, e não fazer
               ela <strong className="text-primary uppercase">gritar</strong> de
-              prazer... <strong className="text-accent">EU DEVOLVO SEU DINHEIRO</strong>.
+              prazer...{' '}
+              <strong className="text-accent">EU DEVOLVO SEU DINHEIRO</strong>.
               Sem perguntas. Sem enrolação.
             </p>
             <p className="mt-6 text-2xl font-bold uppercase">
@@ -457,18 +469,48 @@ export default function Home() {
             </h2>
             <div className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2">
               {[
-                { icon: Smartphone, text: "ELA VAI TE TROCAR", desc: "Não amanhã. Não no mês que vem. Mas VAI. Ela já tá de olho em outro cara. Aquele da academia. O amigo do trabalho. Alguém que REALMENTE sabe o que fazer com uma mulher. E quando acontecer, você vai saber EXATAMENTE por quê. Porque você teve a CHANCE de mudar e escolheu continuar sendo FRACO." },
-                { icon: Bed, text: "VOCÊ VAI MORRER VIRGEM... DE VERDADE", desc: "Não importa quantas vezes você \"fez\". Se você não sabe SATISFAZER uma mulher, você É virgem. Vai passar a vida INTEIRA sem saber o que é fazer uma mulher ter orgasmo DE VERDADE. Sem ver ela TREMER. Sem ouvir ela GRITAR seu nome. Vai morrer sem nunca ter sido HOMEM." },
-                { icon: HeartCrack, text: "SUA AUTOESTIMA VAI PRO LIXO", desc: "Cada vez que você falhar, vai doer MAIS. Vai te corroer por dentro. Você vai começar a evitar mulheres. Vai inventar desculpas. Vai virar aquele cara PATÉTICO que todo mundo tem pena. Seus amigos vão perceber. Sua família vai perceber. TODO MUNDO vai saber que você é um FRACASSO." },
-                { icon: Users, text: "ELA VAI CONTAR PRA TODO MUNDO", desc: "Mulheres falam. MUITO. Aquela humilhação que você acha que ficou entre vocês dois? MENTIRA. As amigas dela já sabem. A família dela suspeita. E quando terminar, TODO MUNDO vai saber que você é HORRÍVEL na cama. Sua reputação vai pro RALO." },
-                { icon: Video, text: "VOCÊ VAI VIVER DE PORNOGRAFIA", desc: "Porque é o único lugar onde você tem \"controle\". Enquanto outros homens estão VIVENDO, você vai estar sozinho, no escuro, assistindo outros caras fazerem o que VOCÊ deveria estar fazendo. Patético. Triste. SOZINHO. É isso que você quer? Ser o cara que TODO MUNDO esquece?" },
-                { icon: Clock, text: "CADA DIA QUE PASSA, FICA PIOR", desc: "Você não está \"do mesmo jeito\". Você está PIORANDO. A ansiedade aumenta. O medo cresce. A cada falha, fica mais difícil tentar de novo. Daqui 1 ano você vai olhar pra trás e pensar: \"POR QUE EU NÃO MUDEI QUANDO TIVE A CHANCE?\" Mas aí vai ser TARDE DEMAIS." },
-                { icon: Flame, text: "VOCÊ VAI SE ARREPENDER PRO RESTO DA VIDA", desc: "Aquele momento em que você vê ela com outro cara. Feliz. Satisfeita. Do jeito que VOCÊ nunca conseguiu fazer. Aquela dor no peito. Aquela raiva de si mesmo. Saber que você PODIA ter sido diferente. Que você teve a SOLUÇÃO na sua frente e deixou passar. Essa dor NUNCA vai embora." }
+                {
+                  icon: Smartphone,
+                  text: 'ELA VAI TE TROCAR',
+                  desc: 'Não amanhã. Não no mês que vem. Mas VAI. Ela já tá de olho em outro cara. Aquele da academia. O amigo do trabalho. Alguém que REALMENTE sabe o que fazer com uma mulher. E quando acontecer, você vai saber EXATAMENTE por quê. Porque você teve a CHANCE de mudar e escolheu continuar sendo FRACO.',
+                },
+                {
+                  icon: Bed,
+                  text: 'VOCÊ VAI MORRER VIRGEM... DE VERDADE',
+                  desc: 'Não importa quantas vezes você "fez". Se você não sabe SATISFAZER uma mulher, você É virgem. Vai passar a vida INTEIRA sem saber o que é fazer uma mulher ter orgasmo DE VERDADE. Sem ver ela TREMER. Sem ouvir ela GRITAR seu nome. Vai morrer sem nunca ter sido HOMEM.',
+                },
+                {
+                  icon: HeartCrack,
+                  text: 'SUA AUTOESTIMA VAI PRO LIXO',
+                  desc: 'Cada vez que você falhar, vai doer MAIS. Vai te corroer por dentro. Você vai começar a evitar mulheres. Vai inventar desculpas. Vai virar aquele cara PATÉTICO que todo mundo tem pena. Seus amigos vão perceber. Sua família vai perceber. TODO MUNDO vai saber que você é um FRACASSO.',
+                },
+                {
+                  icon: Users,
+                  text: 'ELA VAI CONTAR PRA TODO MUNDO',
+                  desc: 'Mulheres falam. MUITO. Aquela humilhação que você acha que ficou entre vocês dois? MENTIRA. As amigas dela já sabem. A família dela suspeita. E quando terminar, TODO MUNDO vai saber que você é HORRÍVEL na cama. Sua reputação vai pro RALO.',
+                },
+                {
+                  icon: Video,
+                  text: 'VOCÊ VAI VIVER DE PORNOGRAFIA',
+                  desc: 'Porque é o único lugar onde você tem "controle". Enquanto outros homens estão VIVENDO, você vai estar sozinho, no escuro, assistindo outros caras fazerem o que VOCÊ deveria estar fazendo. Patético. Triste. SOZINHO. É isso que você quer? Ser o cara que TODO MUNDO esquece?',
+                },
+                {
+                  icon: Clock,
+                  text: 'CADA DIA QUE PASSA, FICA PIOR',
+                  desc: 'Você não está "do mesmo jeito". Você está PIORANDO. A ansiedade aumenta. O medo cresce. A cada falha, fica mais difícil tentar de novo. Daqui 1 ano você vai olhar pra trás e pensar: "POR QUE EU NÃO MUDEI QUANDO TIVE A CHANCE?" Mas aí vai ser TARDE DEMAIS.',
+                },
+                {
+                  icon: Flame,
+                  text: 'VOCÊ VAI SE ARREPENDER PRO RESTO DA VIDA',
+                  desc: 'Aquele momento em que você vê ela com outro cara. Feliz. Satisfeita. Do jeito que VOCÊ nunca conseguiu fazer. Aquela dor no peito. Aquela raiva de si mesmo. Saber que você PODIA ter sido diferente. Que você teve a SOLUÇÃO na sua frente e deixou passar. Essa dor NUNCA vai embora.',
+                },
               ].map((item, index) => (
                 <div key={index} className="flex gap-4">
                   <item.icon className="h-10 w-10 flex-shrink-0 text-primary" />
                   <div>
-                    <h3 className="text-xl font-bold uppercase text-primary">{item.text}</h3>
+                    <h3 className="text-xl font-bold uppercase text-primary">
+                      {item.text}
+                    </h3>
                     <p className="mt-1 text-foreground/80">{item.desc}</p>
                   </div>
                 </div>
@@ -489,9 +531,8 @@ export default function Home() {
               <span className="text-primary">NINGUÉM</span> respeita?
             </p>
             <p>
-              Ou vai ter as{' '}
-              <span className="text-accent">CULHÕES</span> de mudar sua vida de
-              uma vez por todas?
+              Ou vai ter as <span className="text-accent">CULHÕES</span> de
+              mudar sua vida de uma vez por todas?
             </p>
           </div>
 
@@ -507,14 +548,18 @@ export default function Home() {
             </p>
             <CountdownTimer initialMinutes={7} initialSeconds={50} />
           </div>
-
-          <Button
-            size="lg"
-            className="flex h-auto w-full max-w-2xl animate-pulse flex-col rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
+          <Link
+            href="https://pay.lowify.com.br/checkout.php?product_id=QIFrwM"
+            className="inline-block w-full max-w-2xl"
           >
-            <span>Garantir minha vaga</span>
-            <span>agora</span>
-          </Button>
+            <Button
+              size="lg"
+              className="flex h-auto w-full animate-pulse flex-col rounded-xl bg-success p-6 text-3xl font-black uppercase leading-tight text-success-foreground shadow-[0_0_20px_hsl(var(--success))] transition-all hover:scale-105 hover:bg-success/90 hover:shadow-[0_0_30px_hsl(var(--success))]"
+            >
+              <span>Garantir minha vaga</span>
+              <span>agora</span>
+            </Button>
+          </Link>
         </section>
       </div>
     </main>
