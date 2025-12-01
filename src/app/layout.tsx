@@ -4,7 +4,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Dominance Accelerator',
+  title: 'Método ATM',
   description: 'Transforme sua vida sexual com o Método A.T.M.',
 };
 
