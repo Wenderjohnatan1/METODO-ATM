@@ -12,6 +12,7 @@ import {
   Lock,
   Meh,
   Rocket,
+  Ruler,
   ShieldAlert,
   ShieldCheck,
   Smartphone,
@@ -158,7 +159,22 @@ export default function Home() {
                 </p>
               </CardContent>
             </Card>
-
+            <Card className="border-2 border-primary/50 bg-card">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
+                  <Ruler className="h-8 w-8" />
+                  Para quem tem o membro pequeno
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3 text-lg">
+                <p>
+                  Se o tamanho te preocupa, você vai descobrir que{' '}
+                  <span className="font-bold">TÉCNICA</span> vence tamanho.
+                  Aprenda a usar o que você tem para dar um prazer que ela{' '}
+                  <span className="font-bold uppercase">nunca</span> sentiu.
+                </p>
+              </CardContent>
+            </Card>
             <Card className="border-2 border-primary/50 bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
@@ -188,23 +204,6 @@ export default function Home() {
                   Para o homem que não se contenta com o básico e quer se
                   tornar o <span className="font-bold">melhor sexo</span> da vida
                   de qualquer mulher, deixando uma marca de prazer e poder.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-primary/50 bg-card">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
-                  <Star className="h-8 w-8" />
-                  Para quem busca sua melhor versão
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3 text-lg">
-                <p>
-                  Se você quer recuperar sua{' '}
-                  <span className="font-bold">masculinidade</span>, dominar a
-                  arte da sedução e do prazer, e ter uma vida sexual que te dê
-                  orgulho, o Método A.T.M. é para você.
                 </p>
               </CardContent>
             </Card>
@@ -308,24 +307,24 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-accent">
                   <Inbox className="h-8 w-8" />
-                  Acesso Imediato
+                  Acesso Imediato no Seu Email
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-lg">
-                <p>Pagou, recebeu no seu email. Comece a mudança agora mesmo.</p>
+                <p>Pagou, recebeu. Comece agora mesmo.</p>
               </CardContent>
             </Card>
             <Card className="bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-accent">
                   <Sparkles className="h-8 w-8" />
-                  Conteúdo Didático
+                  Conteúdo Didático com Imagens Demonstrativas
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-lg">
                 <p>
                   Nada de teoria complicada. Tudo explicado de forma simples e
-                  visual, com imagens demonstrativas.
+                  visual.
                 </p>
               </CardContent>
             </Card>
@@ -337,16 +336,18 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-2 text-lg">
                 <p>
-                  <span className="font-bold text-primary">A - Antecipação:</span>{' '}
-                  Domine a psicologia do desejo.
+                  <span className="font-bold text-primary">
+                    A - Antecipação:
+                  </span>{' '}
+                  Domine a psicologia do desejo
                 </p>
                 <p>
                   <span className="font-bold text-primary">T - Toque:</span>{' '}
-                  Técnicas secretas que ela nunca sentiu.
+                  Técnicas secretas que ela nunca sentiu
                 </p>
                 <p>
                   <span className="font-bold text-primary">M - Mente:</span>{' '}
-                  Controle total sobre sua performance.
+                  Controle total sobre sua performance
                 </p>
               </CardContent>
             </Card>
@@ -358,7 +359,9 @@ export default function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-lg">
-                <p>Estude no seu ritmo, revise quando quiser. O acesso é seu para sempre.</p>
+                <p>
+                  Estude no seu ritmo, revise quando quiser.
+                </p>
               </CardContent>
             </Card>
           </div>
