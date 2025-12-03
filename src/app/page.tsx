@@ -72,7 +72,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="py-20 text-center md:py-32">
           <h1 className="text-5xl font-bold uppercase tracking-tighter text-primary md:text-7xl lg:text-8xl">
-            Faça Ela Ter Múltiplos Orgasmos em 21 Dias - Garantido
+            Faça Ela Ter Orgasmos Múltiplos Usando Este Método Simples
           </h1>
           <p className="mt-6 text-2xl font-bold text-accent md:text-4xl">
             O Método A.T.M que ensina você a controlar sua performance e dominar
