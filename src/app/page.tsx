@@ -83,12 +83,12 @@ export default function Home() {
           <div className="mx-auto mt-8 max-w-3xl space-y-4 text-lg text-foreground/80 md:text-xl">
             <div className="my-8">
               <Image
-                src="https://i.postimg.cc/BQSnSdzH/Gemini-Generated-Image-l8hn2ml8hn2ml8hn.png"
-                alt="Homem confiante na cama com a parceira"
+                src="https://i.postimg.cc/Zn53w7xZ/CApa-metodo-A-T-M.png"
+                alt="Capa do Método A.T.M."
                 width={800}
-                height={450}
-                className="mx-auto rounded-lg shadow-2xl"
-                data-ai-hint="man bed partner"
+                height={800}
+                className="mx-auto w-full max-w-md rounded-lg shadow-2xl"
+                data-ai-hint="product cover"
               />
             </div>
             <p>
@@ -415,14 +415,6 @@ export default function Home() {
 
         {/* Offer Section */}
         <section className="py-16 text-center md:py-24">
-          <Image
-            src="https://i.postimg.cc/Zn53w7xZ/CApa-metodo-A-T-M.png"
-            alt="Capa Método A.T.M"
-            width={1080}
-            height={1080}
-            className="mx-auto mb-12 w-full max-w-lg rounded-lg shadow-2xl"
-            data-ai-hint="product cover"
-          />
           <div className="mx-auto max-w-4xl">
             <div className="mb-10 animate-pulse rounded-lg bg-accent p-4 text-center">
               <p className="flex items-center justify-center gap-2 text-2xl font-bold text-accent-foreground">
