@@ -6,11 +6,16 @@ import {
   Flame,
   Frown,
   HeartCrack,
+  Inbox,
+  LifeBuoy,
+  Lightbulb,
+  Lock,
   Meh,
   Rocket,
   ShieldAlert,
   ShieldCheck,
   Smartphone,
+  Sparkles,
   Star,
   Users,
   Video,
@@ -240,12 +245,6 @@ export default function Home() {
                 <span className="font-bold">ANTES</span> mesmo de tirar a roupa.
                 Faça ela te <span className="font-bold uppercase">implorar</span>.
               </p>
-              <p className="mt-4 rounded-md bg-card p-3 text-base font-bold text-accent">
-                Baseado nos estudos de neurociência sexual da Universidade de
-                Michigan (2023) - 87% das mulheres disseram que a antecipação é{' '}
-                <span className="uppercase">mais importante</span> que o ato em
-                si.
-              </p>
             </div>
             <div className="rounded-lg border-2 border-dashed border-accent p-8 text-center">
               <p className="text-9xl font-black text-accent">T</p>
@@ -259,12 +258,6 @@ export default function Home() {
                 que fazem ela{' '}
                 <span className="font-bold uppercase">gritar</span> seu nome.
               </p>
-              <p className="mt-4 rounded-md bg-card p-3 text-base font-bold text-primary">
-                Comprovado pelo Instituto de Sexualidade Humana de Berlin -
-                mulheres têm{' '}
-                <span className="uppercase">340% mais orgasmos</span> com
-                homens treinados neste método.
-              </p>
             </div>
             <div className="rounded-lg border-2 border-dashed border-accent p-8 text-center">
               <p className="text-9xl font-black text-accent">M</p>
@@ -275,25 +268,8 @@ export default function Home() {
                 ereção. Reprograme sua mente através das técnicas de ancoragem
                 neural.
               </p>
-              <p className="mt-4 rounded-md bg-card p-3 text-base font-bold text-accent">
-                Pesquisa da Harvard Medical School (2024) provou:{' '}
-                <span className="uppercase">91% dos homens TRIPLICARAM</span> sua
-                duração em apenas 14 dias.
-              </p>
             </div>
           </div>
-        </section>
-
-        {/* Product Image Section */}
-        <section className="py-16 text-center md:py-24">
-          <Image
-            src="https://i.postimg.cc/3xd7GQm0/IMG-PV-METODO-A-T-M.png"
-            alt="Método A.T.M"
-            width={1080}
-            height={1350}
-            className="mx-auto w-full max-w-md rounded-lg shadow-2xl"
-            data-ai-hint="product package"
-          />
         </section>
 
         {/* Proof Section */}
@@ -337,6 +313,72 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* What You Get Section */}
+        <section className="py-16 md:py-24">
+          <h2 className="mb-12 text-center text-4xl font-bold uppercase md:text-5xl">
+            O Que Você Vai <span className="text-primary">Receber</span>
+          </h2>
+          <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
+            <Card className="bg-card">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-accent">
+                  <Inbox className="h-8 w-8" />
+                  Acesso Imediato
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-lg">
+                <p>Pagou, recebeu no seu email. Comece a mudança agora mesmo.</p>
+              </CardContent>
+            </Card>
+            <Card className="bg-card">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-accent">
+                  <Sparkles className="h-8 w-8" />
+                  Conteúdo Didático
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-lg">
+                <p>
+                  Nada de teoria complicada. Tudo explicado de forma simples e
+                  visual, com imagens demonstrativas.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="col-span-1 bg-card md:col-span-2">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-accent">
+                  <Lightbulb className="h-8 w-8" />3 Módulos Completos
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-2 text-lg">
+                <p>
+                  <span className="font-bold text-primary">A - Antecipação:</span>{' '}
+                  Domine a psicologia do desejo.
+                </p>
+                <p>
+                  <span className="font-bold text-primary">T - Toque:</span>{' '}
+                  Técnicas secretas que ela nunca sentiu.
+                </p>
+                <p>
+                  <span className="font-bold text-primary">M - Mente:</span>{' '}
+                  Controle total sobre sua performance.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="bg-card">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-accent">
+                  <Lock className="h-8 w-8" />
+                  Acesso Vitalício
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-lg">
+                <p>Estude no seu ritmo, revise quando quiser. O acesso é seu para sempre.</p>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
@@ -386,20 +428,16 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Cover Image Section */}
+        {/* Offer Section */}
         <section className="py-16 text-center md:py-24">
           <Image
             src="https://i.postimg.cc/Zn53w7xZ/CApa-metodo-A-T-M.png"
             alt="Capa Método A.T.M"
             width={1080}
             height={1080}
-            className="mx-auto w-full max-w-lg rounded-lg shadow-2xl"
+            className="mx-auto mb-12 w-full max-w-lg rounded-lg shadow-2xl"
             data-ai-hint="product cover"
           />
-        </section>
-
-        {/* Offer Section */}
-        <section className="py-16 text-center md:py-24">
           <div className="mx-auto max-w-4xl">
             <div className="mb-10 animate-pulse rounded-lg bg-accent p-4 text-center">
               <p className="flex items-center justify-center gap-2 text-2xl font-bold text-accent-foreground">
