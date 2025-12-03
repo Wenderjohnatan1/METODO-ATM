@@ -543,21 +543,6 @@ export default function Home() {
 
         {/* Final CTA Section */}
         <section className="py-20 text-center md:py-32">
-          <h2 className="text-4xl font-bold uppercase tracking-tight md:text-5xl">
-            Então decide agora:
-          </h2>
-          <div className="mx-auto my-8 max-w-4xl space-y-4 text-2xl font-medium md:text-3xl">
-            <p>
-              Você vai continuar sendo o cara{' '}
-              <span className="text-primary">PATÉTICO</span> que{' '}
-              <span className="text-primary">NINGUÉM</span> respeita?
-            </p>
-            <p>
-              Ou vai ter as <span className="text-accent">CULHÕES</span> de
-              mudar sua vida de uma vez por todas?
-            </p>
-          </div>
-
           <p className="mb-8 text-2xl font-bold uppercase text-primary">
             A escolha é sua. Mas o tempo está acabando.
           </p>
