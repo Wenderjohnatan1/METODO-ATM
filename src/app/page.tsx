@@ -67,11 +67,12 @@ export default function Home() {
         {/* Hero Section */}
         <section className="py-20 text-center md:py-32">
           <h1 className="text-5xl font-bold uppercase tracking-tighter text-primary md:text-7xl lg:text-8xl">
-            Chega de ser o palhaço da cama
+            Faça Ela Ter Múltiplos Orgasmos em 21 Dias - Garantido
           </h1>
           <p className="mt-6 text-2xl font-bold text-accent md:text-4xl">
-            Você vai dominar ela... ou continuar sendo dominado pela sua própria
-            vergonha?
+            O Método A.T.M que ensina você a controlar sua performance e dominar
+            as técnicas que fazem qualquer mulher gozar 2, 3 ou mais vezes por
+            noite
           </p>
           <div className="mx-auto mt-8 max-w-3xl space-y-4 text-lg text-foreground/80 md:text-xl">
             <div className="my-8">
@@ -562,6 +563,17 @@ export default function Home() {
           </Link>
         </section>
       </div>
+
+      {/* Footer */}
+      <footer className="w-full border-t border-border py-4">
+        <div className="container mx-auto px-4 text-center text-xs text-muted-foreground">
+          <p>© {new Date().getFullYear()} Método ATM. Todos os direitos reservados.</p>
+          <p className="mt-2">
+            Este produto não substitui uma consulta médica. Consulte sempre um
+            profissional da saúde para tratar de assuntos relativos à sua saúde.
+          </p>
+        </div>
+      </footer>
     </main>
   );
 }
