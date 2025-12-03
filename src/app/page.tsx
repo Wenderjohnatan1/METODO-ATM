@@ -96,10 +96,6 @@ export default function Home() {
               <span className="font-bold text-primary">TRANSFORMANDO</span> suas
               vidas sexuais com o Método A.T.M.
             </p>
-            <p className="font-bold">
-              Você vai ser o próximo... ou vai continuar fingindo que está tudo
-              bem?
-            </p>
           </div>
         </section>
 
