@@ -370,7 +370,7 @@ export default function Home() {
         {/* Testimonials Section */}
         <section className="py-16 md:py-24">
           <h2 className="mb-12 text-center text-4xl font-bold text-primary md:text-5xl">
-            HOMENS QUE SAÍRAM DO INFERNO
+            HOMENS QUE APLICARAM O MÉTODO A.T.M
           </h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((testimonial) => (
