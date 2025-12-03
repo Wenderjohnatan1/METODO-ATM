@@ -105,27 +105,23 @@ export default function Home() {
         {/* Problems Section */}
         <section className="py-16 md:py-24">
           <h2 className="mb-12 text-center text-4xl font-bold md:text-5xl">
-            Eu sei <span className="text-primary">exatamente</span> o que você
-            sente...
+            Para quem é o <span className="text-primary">Método A.T.M.</span>?
           </h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Card className="border-2 border-primary/50 bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
-                  <Frown className="h-8 w-8" />
-                  PAU PEQUENO?
+                  <Clock className="h-8 w-8" />
+                  Para quem goza rápido demais
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3 text-lg">
                 <p>
-                  Aquela <span className="font-bold">VERGONHA</span> quando ela
-                  tira sua roupa e você vê aquele olhar de{' '}
-                  <span className="font-bold">DECEPÇÃO</span>. Aquele silêncio
-                  constrangedor. A sensação de que você{' '}
-                  <span className="font-bold uppercase">Nunca</span> vai ser
-                  homem o suficiente.
+                  Se você mal começa e já acabou, deixando ela na mão, este
+                  método vai te dar o{' '}
+                  <span className="font-bold uppercase">controle total</span> para
+                  durar o tempo que <span className="font-bold">VOCÊ</span> quiser.
                 </p>
-                <p className="font-bold uppercase text-accent">Acaba hoje.</p>
               </CardContent>
             </Card>
 
@@ -133,40 +129,16 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
                   <HeartCrack className="h-8 w-8" />
-                  BROXOU DE NOVO?
+                  Para quem broxa na hora H
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3 text-lg">
                 <p>
-                  Na hora H, ele resolve te{' '}
-                  <span className="font-bold">TRAIR</span>. Ela ali,
-                  esperando... e <span className="font-bold">NADA</span>. Aquele
-                  pânico. Aquela humilhação. O medo de que ela vá contar pras
-                  amigas. O medo de{' '}
-                  <span className="font-bold uppercase">Nunca</span> mais
-                  conseguir.
+                  Para o homem que sente o pânico de falhar quando mais
+                  precisa. Recupere a{' '}
+                  <span className="font-bold">confiança</span> e tenha ereções
+                  firmes e duradouras, sempre.
                 </p>
-                <p className="font-bold uppercase text-accent">Pare de sofrer.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-primary/50 bg-card">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
-                  <Clock className="h-8 w-8" />
-                  GOZA EM 2 MINUTOS?
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3 text-lg">
-                <p>
-                  Mal começou e <span className="font-bold">JÁ ERA</span>. Ela nem
-                  esquentou direito e você já está pedindo desculpas. Aquela
-                  sensação de <span className="font-bold">FRACASSO</span> total.
-                  Ver ela frustrada. Saber que você{' '}
-                  <span className="font-bold uppercase">Nunca</span> satisfez
-                  ninguém de verdade.
-                </p>
-                <p className="font-bold uppercase text-accent">Isso acaba agora.</p>
               </CardContent>
             </Card>
 
@@ -174,19 +146,16 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
                   <Meh className="h-8 w-8" />
-                  ELA NÃO GEME MAIS?
+                  Para quem não sabe satisfazer
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3 text-lg">
                 <p>
-                  Você percebe que ela está{' '}
-                  <span className="font-bold">FINGINDO</span>. Que ela não sente{' '}
-                  <span className="font-bold">NADA</span>. Que ela pensa em
-                  outro cara enquanto você tá ali tentando. A verdade{' '}
-                  <span className="font-bold">BRUTAL</span>: você não sabe o que
-                  fazer com uma mulher.
+                  Se você percebe que ela finge ou não sente prazer de verdade,
+                  você vai aprender as{' '}
+                  <span className="font-bold">técnicas</span> que fazem qualquer
+                  mulher implorar por mais.
                 </p>
-                <p className="font-bold uppercase text-accent">Aprenda hoje.</p>
               </CardContent>
             </Card>
 
@@ -194,17 +163,15 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
                   <ShieldAlert className="h-8 w-8" />
-                  TEM MEDO DE TENTAR?
+                  Para quem tem medo de falhar
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3 text-lg">
                 <p>
-                  Você <span className="font-bold">EVITA</span> situações
-                  íntimas porque sabe que vai falhar. Inventa desculpas. Foge
-                  das oportunidades. Vê outras pessoas vivendo enquanto você
-                  fica <span className="font-bold">PARALISADO</span> pelo medo.
-                  Sua vida sexual é uma{' '}
-                  <span className="font-bold">MENTIRA</span>.
+                  Se a ansiedade e o medo de decepcionar te paralisam, este
+                  método vai <span className="font-bold">destruir</span> suas
+                  inseguranças e te transformar no homem que você nasceu pra
+                  ser.
                 </p>
               </CardContent>
             </Card>
@@ -212,17 +179,32 @@ export default function Home() {
             <Card className="border-2 border-primary/50 bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
-                  <HeartCrack className="h-8 w-8" />
-                  ELA TE TRAIU?
+                  <Rocket className="h-8 w-8" />
+                  Para quem quer ser inesquecível
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3 text-lg">
                 <p>
-                  Você <span className="font-bold">JÁ SABE</span> por quê. Porque
-                  você não dava o que ela precisava. Porque outro homem fez o
-                  trabalho que <span className="font-bold">VOCÊ</span> deveria
-                  fazer. Aquela dor no peito. Aquela raiva. E no fundo... você
-                  sabe que a culpa é <span className="font-bold">SUA</span>.
+                  Para o homem que não se contenta com o básico e quer se
+                  tornar o <span className="font-bold">melhor sexo</span> da vida
+                  de qualquer mulher, deixando uma marca de prazer e poder.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-primary/50 bg-card">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-2xl font-bold text-primary">
+                  <Star className="h-8 w-8" />
+                  Para quem busca sua melhor versão
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3 text-lg">
+                <p>
+                  Se você quer recuperar sua{' '}
+                  <span className="font-bold">masculinidade</span>, dominar a
+                  arte da sedução e do prazer, e ter uma vida sexual que te dê
+                  orgulho, o Método A.T.M. é para você.
                 </p>
               </CardContent>
             </Card>
