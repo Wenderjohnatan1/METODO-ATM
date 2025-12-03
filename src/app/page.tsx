@@ -416,6 +416,16 @@ export default function Home() {
         {/* Offer Section */}
         <section className="py-16 text-center md:py-24">
           <div className="mx-auto max-w-4xl">
+            <div className="my-8">
+                <Image
+                  src="https://i.postimg.cc/Zn53w7xZ/CApa-metodo-A-T-M.png"
+                  alt="Capa do Método A.T.M."
+                  width={800}
+                  height={800}
+                  className="mx-auto w-full max-w-md rounded-lg shadow-2xl"
+                  data-ai-hint="product cover"
+                />
+            </div>
             <div className="mb-10 animate-pulse rounded-lg bg-accent p-4 text-center">
               <p className="flex items-center justify-center gap-2 text-2xl font-bold text-accent-foreground">
                 <AlertTriangle className="h-8 w-8" />
